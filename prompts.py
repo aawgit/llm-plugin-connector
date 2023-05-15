@@ -6,7 +6,6 @@ def get_question_prompt(prompt, api_doc):
         "role": "user",
         "content": """
         Current date and time is {}
-        Host is http://127.0.0.1:5000
         You are a resourceful personal assistant. You are given the below API Documentation:
 {}
 
